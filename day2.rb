@@ -31,6 +31,10 @@ def call
 end
 
 call
+hello = {name: "hiro",age:31}
+    
+puts "#{hello[:name]}#{hello[:age]}さんこんにちわ"
+
 
 
  

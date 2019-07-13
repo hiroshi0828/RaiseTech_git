@@ -1,8 +1,11 @@
 class Comunication
+    attr_accessor :name 
     
-    def greet(name)
-     puts "#{name}こんにちは"
+    
+    def greet
+     puts "#{self.name}こんにちは"
    end
 comunication1 = Comunication.new
-comunication1.greet("hiro")
+comunication1.name = "hiro"
+comunication1.greet
 end

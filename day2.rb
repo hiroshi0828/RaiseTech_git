@@ -18,3 +18,19 @@ def boolean(num)
     end
 end
 boolean(0)
+
+def call
+ whos = ["hiro","asa","you"] 
+ words = ["oha","おは","good"]
+ words.each do |word|
+    puts word
+ end 
+ whos.each do |who|
+    puts who
+ end
+end
+
+call
+
+
+ 

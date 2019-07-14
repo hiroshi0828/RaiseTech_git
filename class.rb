@@ -1,4 +1,5 @@
-require "./greet"
+
+
 class Comunication
 attr_accessor :name 
 attr_accessor :greet
@@ -12,4 +13,6 @@ attr_accessor :greet
    end
 comunication1 = Comunication.new(name:"hiro",greet:"hello")
 comunication1.greeting
+
+
 end
